@@ -22,7 +22,7 @@ localhost:80
 ### Инструкция K8s
 Склонировать репозиторий
 ```
-git clone https://github.com/shadowHD-bit/ISIS_LAB4.git
+git clone https://github.com/shadowHD-bit/ISIS_LAB5.git
 ```
 Создать Deployment
 ```
