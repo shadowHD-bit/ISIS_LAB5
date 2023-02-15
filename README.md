@@ -1,5 +1,5 @@
-### ISIS_Lab2
-Kubernetes. Знакомство с абстракциями pod, replicaset, deployment resources
+### ISIS_Lab5
+Запустить приложение1 в Kubernetes, настроить liveness probe
 
 ### Инструкция Docker
 Склонировать репозиторий
