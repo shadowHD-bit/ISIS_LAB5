@@ -24,25 +24,21 @@ localhost:80
 ```
 git clone https://github.com/shadowHD-bit/ISIS_LAB4.git
 ```
-Создать Pod
-```
-kubectl apply -f .\node-pod.yaml
-```
 Создать Deployment
 ```
 kubectl apply -f .\node-deployment.yaml
 ```
-Создать ReplicaSet
-```
-kubectl apply -f .\node-replicaset.yaml
-```
 
 Или использовать команду
 ```
-kubectl create deployment isis4-dep --image alx5874/my-repository:nodejs-docker-isis4
+kubectl create deployment isis4-dep --image alx5874/my-repository:nodejs-docker-isis5
 ```
 
 Посмотреть информацию о ресурсах созданного Deployment
 ```
 kubectl describe node
+```
+Посмотреть информацию о созданных подах
+```
+kubectl get pods
 ```
